@@ -1,0 +1,172 @@
+body
+{
+	color: #222;
+	font-family: arial, sans-serif;
+}
+
+.entete
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	margin-bottom: 100px;
+	align-items: center;
+}
+
+.entete a
+{
+	padding-right: 20px;
+	text-decoration: none;
+	font-size: small;
+	color: #222;
+}
+
+.corps
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.corps div
+{
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.bouton_menu
+{
+	cursor: pointer;
+	opacity: 0.55;
+	height: 30px;
+	width: 30px;
+}
+
+.border_bar
+{
+	width: 582px;
+	display: flex;
+	border: 1px solid #dfe1e5;
+	box-shadow: none;
+	border-radius: 24px;
+	height: 44px;
+}
+
+.content_bar
+{
+	display: flex;
+}
+
+.loupe
+{
+	opacity: 0.55;
+	margin-left: 10px;
+}
+
+.barre
+{
+	font-size: 16px;
+	margin-top: -5px;
+	width: 500px;
+	border: none;
+}
+
+.boutons input
+{
+	background-color: #f2f2f2;
+	border: 1px solid #f2f2f2;
+	border-radius: 4px;
+	color: #5F6368;
+	font-size: 14px;
+	margin: 11px 4px;
+	padding: 0 16px;
+	line-height: 27px;
+	height: 36px;
+	min-width: 54px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.avertissement
+{
+	display: flex;
+	align-items: center;
+	font-size: small;
+}
+
+.avertissement a
+{
+	text-decoration: none;
+	margin-left: 5px;
+}
+
+.avertissement a:hover
+{
+	text-decoration: underline;
+}
+
+.dothefive
+{
+	margin-right: 5px;
+	width: 45px;
+}
+
+.langue
+{
+	font-size: small;
+}
+
+.langue a
+{
+	text-decoration: none;
+}
+
+.langue a:hover
+{
+	text-decoration: underline;
+}
+
+.pied
+{
+	background: #f2f2f2;
+	line-height: 40px;
+	min-width: 980px;
+	border-top: 1px solid #e4e4e4;
+	font-size: 14px;
+	color: #5f6368;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 0;
+	margin: 0;
+}
+
+.pays
+{
+	padding-left: 30px;
+	font-size: 14px;
+}
+
+.infos
+{
+	display: flex;
+	justify-content: space-between;
+	border-top: 1px solid #e4e4e4;
+	padding-left: 30px;
+	padding-right: 7px;
+}
+
+.infos a
+{
+	text-decoration: none;
+	padding-right: 23px;
+	color: #5f6368;
+}
+
+.infos a:hover
+{
+	text-decoration: underline;
+	color: #5f6368;
+}
